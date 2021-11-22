@@ -1,4 +1,4 @@
-package com.example.testjwtserver.model;
+package com.example.testjwt.model;
 
 import lombok.Data;
 

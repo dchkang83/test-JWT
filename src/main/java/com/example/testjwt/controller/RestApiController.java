@@ -1,8 +1,8 @@
-package com.example.testjwtserver.controller;
+package com.example.testjwt.controller;
 
-import com.example.testjwtserver.config.auth.PrincipalDetails;
-import com.example.testjwtserver.model.User;
-import com.example.testjwtserver.repository.UserRepository;
+import com.example.testjwt.config.auth.PrincipalDetails;
+import com.example.testjwt.model.User;
+import com.example.testjwt.repository.UserRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.security.core.Authentication;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;

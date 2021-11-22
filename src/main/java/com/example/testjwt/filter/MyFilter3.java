@@ -1,4 +1,4 @@
-package com.example.testjwtserver.filter;
+package com.example.testjwt.filter;
 
 import javax.servlet.*;
 import javax.servlet.http.HttpServletRequest;

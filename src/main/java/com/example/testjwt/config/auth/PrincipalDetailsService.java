@@ -1,7 +1,7 @@
-package com.example.testjwtserver.config.auth;
+package com.example.testjwt.config.auth;
 
-import com.example.testjwtserver.model.User;
-import com.example.testjwtserver.repository.UserRepository;
+import com.example.testjwt.model.User;
+import com.example.testjwt.repository.UserRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.core.userdetails.UserDetailsService;

@@ -1,7 +1,6 @@
-package com.example.testjwtserver.config;
+package com.example.testjwt.config;
 
-import com.example.testjwtserver.filter.MyFilter1;
-import com.example.testjwtserver.filter.MyFilter2;
+import com.example.testjwt.filter.MyFilter1;
 import org.springframework.boot.web.servlet.FilterRegistrationBean;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

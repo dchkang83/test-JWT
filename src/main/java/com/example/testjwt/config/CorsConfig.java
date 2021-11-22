@@ -1,4 +1,4 @@
-package com.example.testjwtserver.config;
+package com.example.testjwt.config;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

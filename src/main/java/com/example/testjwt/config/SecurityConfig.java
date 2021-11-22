@@ -1,10 +1,8 @@
-package com.example.testjwtserver.config;
+package com.example.testjwt.config;
 
-import com.example.testjwtserver.config.jwt.JwtAuthenticationFilter;
-import com.example.testjwtserver.config.jwt.JwtAuthorizationFilter;
-import com.example.testjwtserver.filter.MyFilter3;
-import com.example.testjwtserver.filter.MyFilter4;
-import com.example.testjwtserver.repository.UserRepository;
+import com.example.testjwt.config.jwt.JwtAuthenticationFilter;
+import com.example.testjwt.config.jwt.JwtAuthorizationFilter;
+import com.example.testjwt.repository.UserRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
@@ -13,8 +11,6 @@ import org.springframework.security.config.annotation.web.configuration.EnableWe
 import org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter;
 import org.springframework.security.config.http.SessionCreationPolicy;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
-import org.springframework.security.web.authentication.www.BasicAuthenticationFilter;
-import org.springframework.security.web.context.SecurityContextPersistenceFilter;
 import org.springframework.web.filter.CorsFilter;
 
 @Configuration

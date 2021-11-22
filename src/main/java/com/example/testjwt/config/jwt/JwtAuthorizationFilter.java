@@ -1,10 +1,10 @@
-package com.example.testjwtserver.config.jwt;
+package com.example.testjwt.config.jwt;
 
 import com.auth0.jwt.JWT;
 import com.auth0.jwt.algorithms.Algorithm;
-import com.example.testjwtserver.config.auth.PrincipalDetails;
-import com.example.testjwtserver.model.User;
-import com.example.testjwtserver.repository.UserRepository;
+import com.example.testjwt.config.auth.PrincipalDetails;
+import com.example.testjwt.model.User;
+import com.example.testjwt.repository.UserRepository;
 import org.springframework.security.authentication.AuthenticationManager;
 import org.springframework.security.authentication.UsernamePasswordAuthenticationToken;
 import org.springframework.security.core.Authentication;

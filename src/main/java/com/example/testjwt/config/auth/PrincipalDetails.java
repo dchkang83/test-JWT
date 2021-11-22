@@ -1,6 +1,6 @@
-package com.example.testjwtserver.config.auth;
+package com.example.testjwt.config.auth;
 
-import com.example.testjwtserver.model.User;
+import com.example.testjwt.model.User;
 import lombok.Data;
 import org.springframework.security.core.GrantedAuthority;
 import org.springframework.security.core.userdetails.UserDetails;
